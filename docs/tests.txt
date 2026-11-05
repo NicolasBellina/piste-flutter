@@ -1,0 +1,24 @@
+00:00 +0: loading /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart
+00:00 +0: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: loading, erreur de lecture puis récupération vers empty
+00:00 +1: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_test.dart: sérialisation complète, y compris les dates et les caractères spéciaux
+00:00 +2: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: recherche et statut se combinent sans altérer les compteurs du bilan
+00:00 +3: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: recherche et statut se combinent sans altérer les compteurs du bilan
+00:00 +4: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: recherche et statut se combinent sans altérer les compteurs du bilan
+00:00 +5: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: bilan vide : pas de division par zéro
+00:00 +6: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: échec écriture : exception propagée et données précédentes conservées
+00:00 +7: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/candidature_controller_test.dart: deux écritures simultanées ne créent pas deux candidatures
+00:00 +8: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +9: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +10: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +11: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +12: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +13: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +14: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:00 +15: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: création validée puis consultation, édition et suppression confirmée
+00:01 +16: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: échec de sauvegarde : formulaire conservé puis nouvelle tentative réussie
+00:01 +17: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: erreur de lecture visible puis Réessayer affiche un vrai état vide
+00:01 +18: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: double appui pendant une sauvegarde : bouton désactivé et une insertion
+00:01 +19: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: recherche et filtre combinés, bilan calculé sur la liste complète
+00:01 +20: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: URL incorrecte refusée ; date facultative sélectionnable puis effaçable
+00:01 +21: /Users/nicolasbellina/Documents/ESGI M2/Flutter/piste/test/widget_test.dart: petit écran, grands caractères et clavier : pas de débordement
+00:02 +22: All tests passed!

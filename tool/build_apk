@@ -1,0 +1,23 @@
+#!/bin/sh
+# Construit un APK release avec la signature privée locale du projet.
+set -eu
+cd "$(dirname "$0")/.."
+if [ ! -f android/key.properties ]; then
+  printf '%s\n' 'Signature absente : configurer android/key.properties et le keystore privé.' >&2
+  exit 1
+fi
+piste_sdk_path="$(cd .. && pwd)/.tools/android-sdk"
+if [ -d "$piste_sdk_path" ]; then
+  export ANDROID_HOME="$piste_sdk_path"
+  export ANDROID_SDK_ROOT="$piste_sdk_path"
+fi
+if [ -d '/Applications/Android Studio.app/Contents/jbr/Contents/Home' ]; then
+  export JAVA_HOME='/Applications/Android Studio.app/Contents/jbr/Contents/Home'
+fi
+if [ -d "$(cd .. && pwd)/.tools" ]; then
+  export GRADLE_USER_HOME="$(cd .. && pwd)/.tools/gradle-cache"
+fi
+./tool/flutterw build apk --release
+mkdir -p livraison
+cp build/app/outputs/flutter-apk/app-release.apk livraison/piste-1.0.0.apk
+printf '%s\n' 'APK disponible dans livraison/piste-1.0.0.apk'

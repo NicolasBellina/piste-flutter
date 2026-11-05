@@ -1,0 +1,12 @@
+#!/bin/sh
+# Utilise Flutter installé ou, pour cette session, le SDK de validation temporaire.
+set -eu
+if command -v flutter >/dev/null 2>&1; then
+  exec flutter "$@"
+fi
+if [ -x /tmp/flutter-tp-sdk/bin/flutter ]; then
+  export PUB_CACHE="${PUB_CACHE:-/tmp/flutter-tp-pub-cache}"
+  exec /tmp/flutter-tp-sdk/bin/flutter "$@"
+fi
+printf '%s\n' 'Flutter est absent. Installer le SDK stable : https://docs.flutter.dev/install' >&2
+exit 127

@@ -1,0 +1,30 @@
+.dart_tool/
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+.DS_Store
+.idea/
+*.iml
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+
+# Signature privée et outils locaux
+.private/
+*.p12
+.tools/
+
+# Binaires publiés dans les releases, données locales
+livraison/*.apk
+*.db
+*.db-shm
+*.db-wal
